@@ -1,0 +1,43 @@
+.carousel-grid-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.carousel-container {
+  width: 70%;
+  margin-bottom: 40px;
+}
+
+.carousel-container h1 {
+  margin: 10px 0 0px 0;
+}
+
+.swiper-wrapper {
+  width: fit-content;
+  display: flex;
+}
+
+.carousel-cards {
+  padding: 40px;
+  display: flex;
+  overflow: hidden; 
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-card {
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-card img {
+  width: auto;
+  transition: transform 0.3s;
+}
+
+.carousel-card.active img {
+  transform: scale(1.06);
+}

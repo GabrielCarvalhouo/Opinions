@@ -1,0 +1,78 @@
+.profile-container {
+  color: var(--color-black);
+  background-color: var(--color-white);
+  padding: 20px 20px 20px 20px;
+  border-radius: 6px;
+  display: flex;
+  height: 80%;
+  max-width: 60%;
+  margin: 1rem auto;
+  box-shadow: 0 0 12px var(--color-grey-shadow);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-icon {
+  font-size: 50px;
+  margin: 10px;
+}
+
+.profile-inputs {
+  width: 80%;
+  height: 100%;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #000;
+  background-color: #ffffff;
+}
+
+.profile-inputs {
+  padding: 20px 20px 40px 20px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s; 
+}
+
+.profile-inputs input.input-error {
+  border: 1px solid red !important;
+}
+
+.profile-inputs input.input-valid {
+  border: 1px solid green !important;
+}
+
+.profile-inputs input {
+  background-color: #cecece;
+}
+
+.profile-inputs input,
+.profile-inputs .profile-button {
+  border: none;
+  margin: 10px;
+  border-radius: 6px;
+  width: 70%;
+  padding: 17px;
+  transition: background-color 0.3s, transform 0.2s; 
+}
+
+.profile-inputs .profile-button {
+  background-color: #8C52FF;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.profile-inputs .profile-button:hover {
+  background-color: #dfdff8;
+  color: #000;
+  transform: scale(1.05); 
+}
+
+.profile-inputs input:active,
+.profile-inputs .profile-button:active {
+  background-color: #f1f1f1; 
+  transform: scale(1.02); 
+}

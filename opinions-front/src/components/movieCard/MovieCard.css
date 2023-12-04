@@ -1,0 +1,60 @@
+.film-grid-container {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.4s;
+}
+
+.film-grid-container:hover {
+  transform: scale(1.05);
+}
+
+.film-item {
+  width: 100%;
+  overflow: hidden;
+}
+
+.grid-film-item {
+  height: 310px;
+}
+
+.grid-inner {
+  height: 410px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.film-grid-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.card-grid-title {
+  height: 110px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-grid-title h2 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.card-grid-title p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.card-grid-title p svg {
+  color: gold;
+  font-size: 1rem;
+}
